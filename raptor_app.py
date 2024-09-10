@@ -5,7 +5,7 @@ from langchain.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_community.document_loaders import PyPDFLoader
-from PyPDF2 import PdfReader
+# from PyPDF2 import PdfReader
 import matplotlib.pyplot as plt
 import tiktoken
 from langchain_community.document_loaders.recursive_url_loader import RecursiveUrlLoader
